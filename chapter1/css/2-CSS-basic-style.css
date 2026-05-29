@@ -1,0 +1,96 @@
+
+
+.main-title {
+    background-color: #457b9d;
+    color: #1a1a1a;
+}
+
+.main-title {
+    text-decoration: underline;
+    text-decoration-color: #1a1a1a;
+    text-align: center;
+    border-radius: 12px
+}
+
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+.container {
+    background-color:#457b9d
+    ;
+    border-radius: 12px
+}
+
+#unique {
+    color: orange;
+}
+
+.special {
+    color: blue;
+}
+
+.bg-green {
+    background-color: #457b9d;
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+   background-color: #e63946;
+    color: #1a1a1a;
+    padding: 20px
+   
+
+}
+
+.button {
+     border-radius: 8px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+
+}
+
+.important-text {
+    color: blue !important;
+}
+
+.container p {
+    text-decoration: underline;
+
+    text-decoration-color: #1a1a1a;
+}
+
+.list-lesson li {
+    color: red;
+}
+
+input[type="text"] {
+    border: 2px solid red;
+}
+
+p::first-letter {
+    font-size: 24px;
+}
+
+h2::before {
+    content: "@";
+    color: gold;
+}
+
+h2::after {
+    content: "$";
+    color: red;
+}
+
+ul li:first-child {
+    color: green;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
