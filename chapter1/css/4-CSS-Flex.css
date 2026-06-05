@@ -14,6 +14,8 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 /*Header Styling*/
@@ -70,4 +72,81 @@ h2 {
 .float-center{
     clear: both;
 }
+
+/* Float Image */
+
+.float-image {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(178, 182, 118);
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.float-image > img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+/* FlexBox Styling */
+
+.flex-container {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    
+    
+}
+
+.flex-item {
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+    
+    
+}
+
+.grow-1 {
+    flex-grow: 1;
+   
+}
+
+.grow-2 {
+     flex-grow: 2;
+}
+
+.set-width {
+    width: 1100px;
+}
+/* Positioning */
+
+.relative-box {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.absolute-box {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    right : 20px;
+    bottom: 20px;
+}
+
+.box {
+    
+}
+
+
 
